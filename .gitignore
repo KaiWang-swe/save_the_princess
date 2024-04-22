@@ -1,0 +1,81 @@
+# Bytecode #
+############
+__pycache__/
+*.py[cod]
+*.pyo
+
+# General
+.DS_Store
+Thumbs.db
+db.sqlite3
+*.log
+*.sql
+*.sqlite
+*.tar.gz
+
+# Compiled Source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages #
+############
+# It's a good idea to ignore package lock files and dependency directories
+node_modules/
+jspm_packages/
+bower_components/
+vendor/
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+*.tar.gz
+
+# OS generated files #
+######################
+.DS_Store
+Thumbs.db
+
+# Editor directories and files #
+################################
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# Project-specific exclusions #
+###############################
+# Add any specific config files or other files you don't want to check into Git.
+# This is just an example:
+config.json
+secret_key.txt
+output.log
+
+# Environment files #
+#####################
+.env
+.env.local
+.env.production
+
+# Build directories #
+#####################
+/dist
+/build
+/out
+
+# Specific to game development #
+################################
+# Binary asset files (may need to include depending on your version control needs)
+*.unity
+*.blend
+*.fbx
+*.obj
+# These are often large and are better managed via LFS (Large File Storage)
