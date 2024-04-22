@@ -3,19 +3,23 @@ class Character:
         self.strength = strength
 
     def update_strength(self, delta):
-        if self.strength+delta>=1:
-            self.strength += delta 
+        # Ensure strength does not fall below 1
+        if self.strength + delta >= 1:
+            self.strength += delta
         else:
             self.strength = 1
-    
+
+
 class Hero(Character):
     def __init__(self, strength=5, equip_sword=False):
         super().__init__(strength)
         self.equip_sword = equip_sword
 
+
 class Yeti(Character):
-    def __init__(self,strength=3):
+    def __init__(self, strength=3):
         super().__init__(strength)
+
 
 class Dragon(Character):
     def __init__(self, strength=8):
