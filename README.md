@@ -9,7 +9,7 @@
 - **Replayable**: With various choices leading to different endings, the game encourages multiple playthroughs to explore all possible scenarios.
 
 ## File Structure
-- `save_the_princess.py`: The main entry point of the game. Run this file to start your adventure.
+- `play.py`: The main entry point of the game. Run this file to start your adventure.
 - `characters.py`: Defines the classes for the player and other characters you will interact with during your quest.
 - `tools.py`: Contains tools and utilities for game mechanics, such as managing game states, inventory, and interactions.
 
@@ -29,7 +29,7 @@ The game's architecture emphasizes modular design and OOP to enhance maintainabi
 Enjoy "Save The Princess" and uncover all the narratives woven into the heart of this enchanting quest. Each choice could be the key to a new ending, so choose wisely!
 
 ## Running the Game
-To play the game, simply execute the `save_the_princess.py` script in a Python environment that meets the version requirements. Enjoy the adventure as you apply your wits and bravery to save the princess!
+To play the game, simply execute the `play.py` script in a Python environment that meets the version requirements. Enjoy the adventure as you apply your wits and bravery to save the princess!
 
 ## Note
 This README is focused on the game's design and architecture, omitting setup and execution instructions to concentrate on explaining its technical and narrative structure.
