@@ -87,13 +87,11 @@ def play_dungeon(hero):
                 )[0] if not hero.equip_sword else "win"
                 if battle_result == "win":
                     print_pause("You've saved the princess and become a hero.")
-                    return replay()
                 else:
                     print_pause("Unfortunately, you've lost.")
-                    return replay()
             elif int(choice) == 2:
                 print_pause("You lose. The title of the game was a hint.")
-                return replay()
+            return replay()
         except ValueError:
             print_pause("Please enter a number.")
 

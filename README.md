@@ -33,4 +33,3 @@ To play the game, simply execute the `play.py` script in a Python environment th
 
 ## Note
 This README is focused on the game's design and architecture, omitting setup and execution instructions to concentrate on explaining its technical and narrative structure.
-
